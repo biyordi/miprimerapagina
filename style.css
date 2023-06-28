@@ -1,0 +1,45 @@
+h1{  
+    color: blue;
+    font-family: Tahoma;
+    background-color: yellow}
+  
+  p{
+    font-family: arial, helvetica;
+    font-style: italic;
+    font-size: 20px;
+    margin: 50px
+    }
+  
+  body{
+     background-color: lavender;
+  }
+  
+  img{
+    max-width: 20%;
+    max-height: 20%;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+
+ .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+}
+
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+  }
+  
+}
+  
